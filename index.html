@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vaishnavi Chakor | Java Full Stack Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a href="#home" class="logo">VC</a>
+  <nav>
+    <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#journey">Journey</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <canvas id="bg" aria-hidden="true"></canvas>
+  <div class="hero-inner">
+  <div class="hero-text">
+    <p class="hello">Hi, I'm</p>
+    <h1>Vaishnavi Chakor</h1>
+    <p class="role"><span id="typed"></span><span class="caret"></span></p>
+    <p class="lead">I build database-driven web apps with Java, MySQL and Angular. Move your mouse: the tables on this page link up to it.</p>
+    <div class="actions">
+      <a class="btn primary" href="#projects">See my projects</a>
+      <a class="btn" href="resume.pdf" download="Vaishnavi_Chakor_Resume.pdf">Download resume</a>
+    </div>
+  </div>
+  <figure class="photo"><img src="photo.jpg" alt="Portrait of Vaishnavi Chakor" width="400" height="458"></figure>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <h2>About me</h2>
+  <div class="about-grid">
+    <p>I'm a Computer Engineering student (B.Tech, 2023–2027) with a strong base in Core Java, OOP, the Collections Framework, SQL and MySQL. I like turning clean data models into apps that are simple to use.</p>
+    <p>I build front ends with Angular, HTML5 and CSS3, keep my code in Git and GitHub, and enjoy solving problems one small step at a time.</p>
+  </div>
+</section>
+
+<section id="skills" class="section alt">
+  <h2>Skills</h2>
+  <div class="skill-groups">
+    <div><h3>Languages</h3><ul class="chips"><li>Java</li><li>JavaScript</li><li>SQL</li></ul></div>
+    <div><h3>Web</h3><ul class="chips"><li>HTML5</li><li>CSS3</li><li>Angular</li></ul></div>
+    <div><h3>Database</h3><ul class="chips"><li>MySQL</li><li>Normalization (3NF)</li></ul></div>
+    <div><h3>Computer science</h3><ul class="chips"><li>OOP</li><li>Data Structures</li><li>Collections Framework</li><li>Problem Solving</li></ul></div>
+    <div><h3>Tools</h3><ul class="chips"><li>Git</li><li>GitHub</li><li>VS Code</li><li>SQL*Plus</li></ul></div>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <h2>Projects</h2>
+  <div class="projects">
+    <article class="card c1">
+      <h3>Student Management System</h3>
+      <p class="tech">Java, MySQL, SQL</p>
+      <ul>
+        <li>Add, update, delete and search student records.</li>
+        <li>Normalized (3NF) MySQL database for data integrity.</li>
+        <li>Input validation and exception handling.</li>
+        <li>Optimized SQL queries for fast retrieval.</li>
+      </ul>
+    </article>
+    <article class="card c2">
+      <h3>Personal Portfolio Website</h3>
+      <p class="tech">HTML5, CSS3, JavaScript, Angular</p>
+      <ul>
+        <li>Responsive site for projects, skills and contact details.</li>
+        <li>Reusable Angular components.</li>
+        <li>Consistent layout on desktop and mobile.</li>
+        <li>Versioned with Git on GitHub.</li>
+      </ul>
+    </article>
+    <article class="card c3">
+      <h3>To-Do Task Manager</h3>
+      <p class="tech">Angular, JavaScript, HTML5, CSS3</p>
+      <ul>
+        <li>Add, edit, complete and delete tasks.</li>
+        <li>Angular data binding updates the UI live.</li>
+        <li>Form validation for accurate input.</li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<section id="journey" class="section alt">
+  <h2>Journey</h2>
+  <ol class="timeline">
+    <li><span class="when">Dec 2025 – Feb 2026</span><h3>Data Science / Analytics Intern</h3><p>NewGen Tech Pvt. Ltd., 45-day internship program.</p></li>
+    <li><span class="when">2023 – 2027</span><h3>B.Tech, Computer Engineering</h3><p>Late G. N. Sapkal College of Engineering.</p></li>
+    <li><span class="when">2023</span><h3>Higher Secondary Certificate</h3><p>Ideal College, 51.50%.</p></li>
+    <li><span class="when">2021</span><h3>Secondary School Certificate</h3><p>Royal High School, 76%.</p></li>
+  </ol>
+  <h3 class="sub">Certifications</h3>
+  <ul class="chips big">
+    <li>Java Programming Masterclass: Beginner to Master</li>
+    <li>Python 101 for Data Science</li>
+    <li>Internship Certificate, NewGen Tech Pvt. Ltd.</li>
+  </ul>
+</section>
+
+<section id="contact" class="section contact">
+  <h2>Let's work together</h2>
+  <p>I'm looking for software developer opportunities. Send me a message.</p>
+  <div class="actions">
+    <a class="btn primary" href="mailto:vaishnavichakor24@gmail.com">vaishnavichakor24@gmail.com</a>
+    <a class="btn" href="tel:+919137351438">+91 9137351438</a>
+    <a class="btn" href="resume.pdf" download="Vaishnavi_Chakor_Resume.pdf">Download resume</a>
+  </div>
+  <p class="links"><a href="#" target="_blank" rel="noopener">LinkedIn</a> <a href="#" target="_blank" rel="noopener">GitHub</a></p>
+  <p class="loc">Kalyan, Thane, India</p>
+</section>
+</main>
+<footer>© <span id="yr"></span> Vaishnavi Chakor</footer>
+<script src="script.js"></script>
+</body>
+</html>
